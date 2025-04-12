@@ -9,7 +9,11 @@
   <h2>3단계: 나만의 계산기</h2>
 
   <div id="calculator">
-    <input type="text" id="display" readonly><br><br>
+    <input type="text" id="display">
+    <div class="warningNotice">
+      <div id="firstNumberNotice">먼저 숫자를 입력해주세요.</div>
+      <div id="continuousOperatorNotice">연산자는 한 번만 입력해주세요.</div>
+    </div>
 
     <div class="button-row">
       <button>7</button>
@@ -27,13 +31,13 @@
       <button>1</button>
       <button>2</button>
       <button>3</button>
-      <button>−</button>
+      <button ></button>
     </div>
     <div class="button-row">
       <button>0</button>
-      <button>.</button>
-      <button>=</button>
-      <button>+</button>
+      <button value=".">.</button>
+      <button value="=">=</button>
+      <button value="+">+</button>
     </div>
     
     <div class="button-row">
